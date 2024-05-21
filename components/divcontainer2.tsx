@@ -14,9 +14,10 @@ const Divcontainer2: NextPage = () => {
               </FadeInOnScroll>
               <FadeInOnScroll>
                 <div className=" flex flex-col w-full items-center justify-start pt-[6rem] sm:px-[1.25rem] pb-[0.01rem]  ">
-                  <div className="relative text-transparent !bg-clip-text [background:linear-gradient(120deg,_#111_30%,grey)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] flex items-center ">
+                  <div className="relative text-transparent flex items-center ">
                     <span className="w-full gap-0 leading-tight text-right py-0 px-7">
-                      <b>CollabMaps</b>
+                      <b className="text-[#FE920C]">Collab</b>
+                      <b className="text-[#4E9400]">Maps</b>
                       
                       <i className="font-poppins "></i>
                       <br></br>
