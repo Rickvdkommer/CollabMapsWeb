@@ -14,7 +14,7 @@ const Divcontainer2: NextPage = () => {
               </FadeInOnScroll>
               <FadeInOnScroll>
                 <div className=" flex flex-col w-full items-center justify-start pt-[6rem] sm:px-[1.25rem] pb-[0.01rem]  ">
-                  <div className="relative text-transparent !bg-clip-text [background:linear-gradient(90deg, #00c9a7, #f7797d)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] flex items-center ">
+                  <div className="relative text-transparent !bg-clip-text [background:linear-gradient(120deg,_#111_30%,grey)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] flex items-center ">
                     <span className="w-full gap-0 leading-tight text-right py-0 px-7">
                       <b>CollabMaps</b>
                       
@@ -22,7 +22,7 @@ const Divcontainer2: NextPage = () => {
                       <br></br>
                       <span className="font-poppins">{``}</span>
                       <span className="font-medium">
-                        {`Simplified.`}
+                        {``}
                         </span>
                     </span>
                   </div>
@@ -33,11 +33,10 @@ const Divcontainer2: NextPage = () => {
               <div className="flex flex-col items-start justify-start gap-4">
                 <FadeInOnScroll>
                   <div className="flex flex-col w-full items-center justify-start py-0 px-7">
-                    <div className="relative leading-[1.87rem] flex items-center">
+                    <div className="relative leading-[1.87rem] flex !bg-clip-text [background:linear-gradient(150deg,_#FF7900_30%,orange)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] items-center">
                       
                       <br>
-                      </br>Email Creation, Warming, Sending
-                       and Analyzing.
+                      </br> The platform that matches Content creators and Businesses.
                       
                     </div>
                   </div>
