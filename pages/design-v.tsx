@@ -12,7 +12,7 @@ import ImageContainer from "../components/imagecontainer";
 
 const DesignV: NextPage = () => {
   return (
-    <div className="relative bg-black flex flex-col items-center justify-start pt-0 px-0 pb-20 gap-16 overflow-hidden">
+    <div className="relative bg-orange-100 flex flex-col items-center justify-start pt-0 px-0 pb-20 gap-16 overflow-hidden">
       <section className="w-full overflow-hidden flex flex-row items-center justify-center">
         <div className="flex-1 overflow-hidden flex flex-col items-center justify-start pt-0 px-0 pb-16 bg-[url('/655590ee57c6182e37c19332-backgroundglowp1600png@3x.png')] bg-cover bg-no-repeat bg-top w-full">
           <FadeInOnScroll>

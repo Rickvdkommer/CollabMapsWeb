@@ -6,7 +6,7 @@
 @tailwind components;
 @tailwind utilities;
 body {
-  @apply leading-[normal] m-0 bg-white;
+  @apply leading-[normal] m-0 bg-black;
 }
 *,
 ::before,
