@@ -87,6 +87,7 @@ module.exports = {
         poppins: "Poppins",
         "sf-pro-text": "'SF Pro Text'",
         "button-rg": "Satoshi",
+        quicksand: "Quicksand",
       },
       borderRadius: {
         "3xs": "10px",

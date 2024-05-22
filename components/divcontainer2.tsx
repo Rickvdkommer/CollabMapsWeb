@@ -15,7 +15,7 @@ const Divcontainer2: NextPage = () => {
               <FadeInOnScroll>
                 <div className=" flex flex-col w-full items-center justify-start pt-[6rem] sm:px-[1.25rem] pb-[0.01rem]  ">
                   <div className="relative text-transparent flex items-center ">
-                    <span className="w-full gap-0 leading-tight text-right py-0 px-7">
+                    <span className="font-quicksand w-full gap-0 leading-tight text-right py-0 px-7">
                       <b className="text-[#FE920C]">Collab</b>
                       <b className="text-[#4E9400]">Maps</b>
                       
@@ -34,10 +34,10 @@ const Divcontainer2: NextPage = () => {
               <div className="flex flex-col items-start justify-start gap-4">
                 <FadeInOnScroll>
                   <div className="flex flex-col w-full items-center justify-start py-0 px-7">
-                    <div className="relative leading-[1.87rem] flex !bg-clip-text [background:linear-gradient(150deg,_#FF7900_30%,orange)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] items-center">
+                    <div className=" font-poppins relative leading-[1.87rem] flex !bg-clip-text [background:linear-gradient(150deg,_#FF7900_30%,orange)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] items-center">
                       
                       <br>
-                      </br> The platform that matches Content creators and Businesses.
+                      </br> The platform that connects Content Creators and Businesses.
                       
                     </div>
                   </div>
