@@ -3,7 +3,7 @@ import FadeInOnScroll from "./FadeInOnScroll";
 
 const DivcontainerWithImage: NextPage = () => {
   return (
-    <div className="mx-auto sm:pt-[20rem] pb-10 max-w-6xl border-box w-full flex flex-col items-center justify-start py-[0.56rem] gap-[1rem] z-[1] mt-[-0.75rem] text-center text-[2.75rem] sm:text-[3.5rem] lg:text-[4.53rem] text-high-contrast-dark font-poppins">
+    <div className="mx-auto pt-[4rem] pb-10 max-w-6xl border-box w-full flex flex-col items-center justify-start py-[0.56rem] gap-[1rem] z-[1] mt-[-0.75rem] text-center text-[2.75rem] sm:text-[3.5rem] lg:text-[4.53rem] text-high-contrast-dark font-poppins">
       <div className="flex flex-col items-start py-0 justify-start">
         <div className="flex flex-row items-center justify-center">
           <div className="flex-1 flex flex-col items-center justify-start gap-7 sm:px-4 overflow-hidden">
@@ -19,7 +19,7 @@ const DivcontainerWithImage: NextPage = () => {
                     <div className="text-center sm:text-left text-[2rem] sm:text-[2.5rem] lg:text-[3rem] font-bold text-high-contrast-dark">
                       For Businesses
                     </div>
-                    <div className="text-center sm:text-left tracking-wide text-[1rem] sm:text-[1.25rem] lg:text-[1.5rem] font-medium text-high-contrast-dark">
+                    <div className="text-center md:px-0 px-6 sm:text-left tracking-wide text-[1rem] sm:text-[1.25rem] lg:text-[1.5rem] font-medium text-high-contrast-dark">
                       Collaborate effortlessly. <br />
                       With our location-based collaboration platform, CollabMaps connects businesses with content creators for impactful partnerships. Simplify your influencer marketing strategy today.
                     </div>

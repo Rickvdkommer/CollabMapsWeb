@@ -26,8 +26,9 @@ const DesignV: NextPage = () => {
           
           <div className="flex-1 overflow-hidden flex flex-col items-center justify-start pt-0 px-0 pb-16 w-full">
           <DivcenterText3 />
+          <Divcontainer4invert /> 
           <Divcontainer4 />
-          <Divcontainer4invert />
+          
 
           </div>
           
