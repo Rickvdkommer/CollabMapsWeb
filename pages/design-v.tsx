@@ -23,10 +23,6 @@ const DesignV: NextPage = () => {
           
           
           <Divcontainer2 />
-
-          
-          <DivcenterText2 />
-          <Divcontainer3 />
           <Divcontainer4 />
           <div className="flex-1 overflow-hidden flex flex-col items-center justify-start pt-0 px-0 pb-16 w-full">
           <DivcenterText />

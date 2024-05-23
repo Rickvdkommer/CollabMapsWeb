@@ -27,7 +27,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         />
         
         
-        <title>YourLeads AI</title>
+        <title>CollabMaps</title>
         <link rel="icon" href="/favicon.png" type="image/png" />
 
         <meta

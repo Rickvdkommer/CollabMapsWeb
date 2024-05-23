@@ -42,21 +42,20 @@ const DivheroButtonsHolder: NextPage<DivheroButtonsHolderType> = ({
   return (
     <form
       onSubmit={onSubmit}
-      className="flex flex-col sm:flex-row justify-center items-center gap-4 mt-4 w-full mq380:px-0 px-4 pt-5"
+      className="flex flex-col sm:flex-row justify-center items-center gap-4 mt-0 w-full mq380:px-0 px-4 pt-0"
     >
       <div className="flex flex-row items-center rounded-full bg-ghostwhite border border-gray-300 w-full">
         <img src={`/mail.png`} alt="Mail Icon" className="pl-4 h-8 mq450:h-5" />
         <input
           type="email"
           placeholder="Enter your Email Address"
-          className="flex-grow text-white text-lg mq450:text-sm font-medium bg-transparent focus:outline-none px-4 py-2"
+          className="flex-grow text-white text-lg mq450:text-sm font-medium bg-white bg-opacity-20 focus:outline-none px-4 py-2"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
-       
         <button
           type="submit"
-          className="sm:whitespace-nowrap  cursor-pointer text-lg mq450:text-sm font-medium font-poppins text-black rounded-full px-5 py-3 sm:px-3 sm:py-2 transition-colors duration-300 ease-linear bg-gradient-to-r from-white to-gray-300 hover:bg-gray-200"
+          className="sm:whitespace-nowrap cursor-pointer text-lg mq450:text-sm font-medium font-poppins text-white rounded-lg px-5 py-3 sm:px-3 sm:py-2 transition-colors duration-300 ease-linear [background:linear-gradient(90deg,_#FE920C,_#FF7F50)] hover:from-[#FE920C] hover:to-[#FF7F50]"
         >
           {joinTheBetaList}
         </button>
