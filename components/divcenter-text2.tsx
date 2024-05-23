@@ -4,7 +4,7 @@ import DivfadeInMoveOnScroll from "./divfade-in-move-on-scroll";
 
 const DivcenterText2: NextPage = () => {
   return (
-    <div className="max-w-6xl w-full flex flex-col items-center justify-start py-8 gap-16 z-10 mt-[-3] text-center text-9xl text-high-contrast-dark font-poppins">
+    <div className="max-w-6xl pt[10rem] w-full flex flex-col items-center justify-start py-8 gap-16 z-10 mt-[-3] text-center text-9xl text-high-contrast-dark font-poppins">
       <div className="w-full flex flex-col items-center justify-center text-white gap-7">
         <FadeInOnScroll>
           <DivfadeInMoveOnScroll

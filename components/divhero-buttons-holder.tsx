@@ -55,7 +55,7 @@ const DivheroButtonsHolder: NextPage<DivheroButtonsHolderType> = ({
         />
         <button
           type="submit"
-          className="sm:whitespace-nowrap cursor-pointer text-lg mq450:text-sm font-medium font-poppins text-white rounded-lg px-5 py-0 sm:px-3 sm:py-2 transition-colors duration-300 ease-linear [background:linear-gradient(90deg,_#FE920C,_#FF7F50)] hover:from-[#FE920C] hover:to-[#FF7F50]"
+          className="sm:whitespace-nowrap cursor-pointer text-lg mq450:text-sm font-medium font-poppins text-white rounded-lg px-5 py-0, sm:px-3 sm:py-2 transition-colors duration-300 ease-linear [background:linear-gradient(90deg,_#FE920C,_#FF7F50)] hover:from-[#FE920C] hover:to-[#FF7F50]"
         >
           {joinTheBetaList}
         </button>
