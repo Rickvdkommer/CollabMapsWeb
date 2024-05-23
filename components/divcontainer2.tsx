@@ -34,7 +34,7 @@ const Divcontainer2: NextPage = () => {
               <div className="flex flex-col items-start justify-start gap-4">
                 <FadeInOnScroll>
                   <div className="flex flex-col w-full items-center justify-start py-0 px-7">
-                    <div className=" font-poppins relative leading-[1.87rem] flex !bg-clip-text [background:linear-gradient(150deg,_#FF7900_30%,orange)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] items-center">
+                    <div className=" font-poppins relative leading-[0.87rem] flex !bg-clip-text [background:linear-gradient(150deg,_#FF7900_30%,orange)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] items-center">
                       
                       <br>
                       </br> The platform that connects Content Creators and Businesses.

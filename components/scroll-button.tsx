@@ -15,10 +15,10 @@
     return (
       <div
         onClick={scrollToDivContainer}
-        className="cursor-pointer rounded-[35.04px] shadow [background:linear-gradient(90deg,_#bcf5bc,_#fff)] flex items-center justify-center pt-[0.44rem] pb-[0.39rem] pr-[0.69rem] pl-[1.08rem] whitespace-nowrap border-[1.2px] border-solid border-high-contrast-dark"
+        className="cursor-pointer font-poppins rounded-[35.04px] shadow [background:linear-gradient(90deg,_#bcf5bc,_#fff)] flex items-center justify-center pt-[0.44rem] pb-[0.39rem] pr-[0.69rem] pl-[1.08rem] whitespace-nowrap border-[1.2px] border-solid border-high-contrast-dark"
       >
         <div className="relative text-sm font-medium">
-          Join the Beta
+          Get Access
         </div>
       </div>
     );

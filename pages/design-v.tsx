@@ -7,6 +7,7 @@ import Divcontainer from "../components/divcontainer";
 import Divcontainer1 from "../components/divcontainer1";
 import Divcontainer2 from "../components/divcontainer2";
 import Divcontainer3 from "../components/divcontainer3";
+import Divcontainer4 from "../components/divcontainer4";
 import DivsmallFeaturesGrid from "../components/divsmall-features-grid";
 import ImageContainer from "../components/imagecontainer";
 
@@ -18,12 +19,15 @@ const DesignV: NextPage = () => {
           <FadeInOnScroll>
             <Banner />
           </FadeInOnScroll>
+
+          
           
           <Divcontainer2 />
 
           
           <DivcenterText2 />
           <Divcontainer3 />
+          <Divcontainer4 />
           <div className="flex-1 overflow-hidden flex flex-col items-center justify-start pt-0 px-0 pb-16 w-full">
           <DivcenterText />
           <FadeInOnScroll>
