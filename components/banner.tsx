@@ -4,7 +4,7 @@ import DivHeroScrollButtonHolder from './scroll-button';
 
 const Banner: NextPage = () => {
   return (
-    <header className="max-w-6xl w-full flex items-center justify-between pt-0 px-4 pb-1 text-center text-base text-black font-poppins">
+    <header className="max-w-6xl w-full flex items-center justify-between pt-7 px-4 pb-1 text-center text-base text-black font-poppins">
     {/* "YourLeads" image on the left */}
     
  
@@ -15,7 +15,7 @@ const Banner: NextPage = () => {
             className="h-16"
             loading="eager"
             alt="Logo"
-            src="/LogoLowQuality.png"
+            src="/favicon.png"
           />
         </div>
 

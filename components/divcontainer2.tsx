@@ -15,7 +15,7 @@ const Divcontainer2: NextPage = () => {
               <FadeInOnScroll>
                 <div className=" flex flex-col w-full items-center justify-start pt-[6rem] sm:px-[1.25rem] pb-[0.01rem]  ">
                   <div className="relative text-transparent flex items-center ">
-                    <img src="/LogoLowQuality.png" alt="Logo" className="h-12 md:h-14 mb-2 md:mb-0 -mr-1" />
+                    <img src="/favicon.png" alt="Logo" className="h-12 md:h-14 mb-2 md:mb-0 -mr-1" />
 
                     <span className="font-quicksand w-full gap-0 leading-tight text-right py-0 px-4">
                       <b className="text-[#FE920C]">Collab</b>
