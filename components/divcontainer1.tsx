@@ -10,19 +10,19 @@ const Divcontainer1: NextPage = () => {
         <div className=" w-[26.37rem] relative bg-gray-1100 max-w-full" />
       </div>
       <div className=" flex flex-row items-center justify-center py-[0rem] px-[1.25rem]  max-w-full">
-        <div className="w-full flex flex-col items-center justify-center gap-[1.05rem] max-w-full">
+        <div className="w-full flex text-black flex-col items-center justify-center gap-[1.05rem] max-w-full">
           <DivfadeInMoveOnScroll
-            featuresOfYourLeads="Our Special Beta Program"
-            leadIntelligenceAmplified="Become an Early Adopter."
+            
+            leadIntelligenceAmplified="Get early access"
           />
           <FadeInOnScroll>
             <div className="flex flex-col items-start justify-start max-w-full">
               <div className="flex flex-col items-center justify-start py-[0rem] pr-[1.49rem] pl-[1.5rem]">
                 <div className="relative leading-[1.87rem] flex items-center">
                   <span>
-                    <p className="m-0">{`Obtaining and managing leads should be easy & effective.`}</p>
+                    <p className="m-0">{`Finding Businesses or Content Creators to collaborate with should be EASY!`}</p>
                     <p className="m-0">
-                      <span>{`Join our Beta Program `}</span>
+                      <span>{`Join our Early Access Program `}</span>
                       <i className="[text-decoration:underline] font-bold font-poppins">
                         right now!
                       </i>

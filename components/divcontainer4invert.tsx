@@ -13,7 +13,7 @@ const DivcontainerWithImage: NextPage = () => {
                   <img
                     src="/ForContentCreators.png"
                     alt="For Content Creators"
-                    className="w-1/2 sm:w-1/3 object-cover order-1 sm:order-2"
+                    className="w-1/2 sm:w-1/2 object-cover order-1 sm:order-2"
                   />
                 </div>
                 <div className="w-full sm:w-2/3 text-left flex items-center"> {/* Changed width for text */}
