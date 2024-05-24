@@ -25,7 +25,7 @@ const DivheroButtonsHolder: NextPage<DivheroButtonsHolderType> = ({
     event.preventDefault();
 
     try {
-      const response = await axios.post("/api/sheets", { email: email });
+      const response = await axios.post("https://hook.eu2.make.com/yyqsh9c7aqizyan1l725geu122h63sip", { email: email });
     
       if (response.status !== 200) {
         throw new Error(`Error: ${response.status}`);
