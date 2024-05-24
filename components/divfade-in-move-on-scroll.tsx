@@ -11,10 +11,10 @@ const DivfadeInMoveOnScroll: NextPage<DivfadeInMoveOnScrollType> = ({
   leadIntelligenceAmplified,
 }) => {
   return (
-    <div className="flex flex-col items-center justify-start gap-2 text-center text-4xl font-poppins">
+    <div className="flex flex-col items-center justify-start gap-2 text-center text-4xl font-quicksand">
       <FadeInOnScroll>
         <button className="pt-1 pb-1 px-2 bg-transparent rounded-lg border border-solid border-gray-800 hover:bg-gray-200">
-          <div className="text-lg tracking-wide leading-6 font-poppins text-high-contrast-dark">
+          <div className="text-lg tracking-wide leading-6 font-quicksand text-high-contrast-dark">
             {featuresOfYourLeads}
           </div>
         </button>

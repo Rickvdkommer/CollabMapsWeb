@@ -25,7 +25,7 @@ const DivcenterText: NextPage = () => {
                   <i className="underline font-poppins"></i>
                   <span>{`. `}</span>
                 </p>
-                <p className="m-0 text-black sm:text-5xl text-2xl text-y">
+                <p className="m-0 font-poppins text-black sm:text-5xl text-2xl text-y">
                   We're simplifying the way to find possible collaboration partners.
                 </p>
               </div>

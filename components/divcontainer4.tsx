@@ -15,13 +15,13 @@ const DivcontainerWithImage: NextPage = () => {
                     alt="For Businesses"
                     className="w-1/2 sm:w-1/3 object-cover order-1 sm:order-2"
                   />
-                  <div className="w-full sm:w-2/3 order-2 sm:order-1">
+                  <div className="w-full sm:w-4/5 order-2 sm:order-1">
                     <div className="text-center sm:text-left text-[2rem] sm:text-[2.5rem] lg:text-[3rem] font-bold text-high-contrast-dark">
                       For Businesses
                     </div>
                     <div className="text-center md:px-0 px-6 sm:text-left tracking-wide text-[1rem] sm:text-[1.25rem] lg:text-[1.5rem] font-medium text-high-contrast-dark">
                       Collaborate effortlessly. <br />
-                      With our location-based collaboration platform, CollabMaps connects businesses with content creators for impactful partnerships. Simplify your influencer marketing strategy today.
+                      With our location-based collaboration platform, CollabMaps connects businesses with content creators for impactful partnerships. It has never been easier to find content creators in your region.
                     </div>
                   </div>
                 </div>
