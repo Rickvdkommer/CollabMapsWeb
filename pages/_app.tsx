@@ -6,6 +6,7 @@ import "./global.css";
 
 function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
+    // Google Tag Manager script
     const script = document.createElement('script');
     script.innerHTML = `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
       new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -25,13 +26,15 @@ function MyApp({ Component, pageProps }: AppProps) {
           content="minimum-scale=1, initial-scale=1, width=device-width"
         />
         
+        {/* Google tag (gtag.js) */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-FSE2SL24SV"></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', 'G-B7P2MLQHH8');
+              gtag('config', 'G-FSE2SL24SV');
             `,
           }}
         />
