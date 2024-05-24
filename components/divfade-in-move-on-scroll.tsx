@@ -21,7 +21,7 @@ const DivfadeInMoveOnScroll: NextPage<DivfadeInMoveOnScrollType> = ({
       </FadeInOnScroll>
       <FadeInOnScroll>
         <div className="py-0 px-5">
-          <div className="text-[2.75rem] sm:text-6xl relative leading-tight font-semibold text-transparent !bg-clip-text [background:linear-gradient(90deg,_#111_50%,_#ECAD6A)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] inline-block max-w-full">
+          <div className="text-[2.75rem] sm:text-6xl relative leading-tight font-semibold text-transparent !bg-clip-text [background:linear-gradient(90deg,_#232b2b_30%,_#ECAD6A)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] inline-block max-w-full">
             {leadIntelligenceAmplified}
           </div>
         </div>
