@@ -49,13 +49,16 @@ const DivheroButtonsHolder: NextPage<DivheroButtonsHolderType> = ({
         <input
           type="email"
           placeholder="Enter your Email Address"
-          className="flex-grow text-white text-lg mq450:text-sm font-medium bg-white bg-opacity-20 focus:outline-none px-4 py-2"
+          className="flex-grow text-black text-lg mq450:text-sm font-medium bg-white bg-opacity-20 focus:outline-none focus:border-blue-500 px-4 py-2"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
+          onFocus={() => setIsInputFocused(true)}
+          onBlur={() => setIsInputFocused(false)}
+          style={{ caretColor: 'black' }}
         />
         <button
           type="submit"
-          className="sm:whitespace-nowrap cursor-pointer text-lg mq450:text-sm font-medium font-poppins text-white rounded-lg px-5 py-0, sm:px-3 sm:py-2 transition-colors duration-300 ease-linear [background:linear-gradient(90deg,_#FE920C,_#FF7F50)] hover:from-[#FE920C] hover:to-[#FF7F50]"
+          className="sm:whitespace-nowrap cursor-pointer text-lg mq450:text-sm font-medium font-poppins text-white rounded-lg px-5 py-0 sm:px-3 sm:py-2 transition-colors duration-300 ease-linear [background:linear-gradient(90deg,_#FE920C,_#FF7F50)] hover:from-[#FE920C] hover:to-[#FF7F50]"
         >
           {joinTheBetaList}
         </button>
