@@ -5,7 +5,7 @@ import DivheroButtonsHolder from "./divhero-buttons-holder";
 
 const Divcontainer1: NextPage = () => {
   return (
-    <div className="w-full max-w-4xl flex flex-col items-center justify-start sm:pb-[2rem] sm:pr-[2.06rem] sm:pl-[2rem]  gap-[3.63 rem] text-center text-[1.17rem] text-high-contrast-dark font-poppins">
+    <div className="w-full max-w-4xl flex flex-col items-center justify-start sm:pb-[2rem] sm:pr-[2.06rem] sm:pl-[2rem]  gap-[3.63 rem] text-center text-[1.17rem] text-high-contrast-dark font-quicksand">
       <div className=" h-[0.06rem] bg-ghostwhite flex flex-row items-center justify-center py-[0rem] sm:px-[1.25rem]  max-w-full">
         <div className=" w-[26.37rem] relative bg-gray-1100 max-w-full" />
       </div>
@@ -21,9 +21,9 @@ const Divcontainer1: NextPage = () => {
                 <div className="relative leading-[1.87rem] flex items-center">
                   <span>
                     <p className="m-0">{`Finding Businesses or Content Creators to collaborate with should be EASY!`}</p>
-                    <p className="m-0">
+                    <p className="m-0 pb-[4rem]">
                       <span>{`Join our Early Access Program `}</span>
-                      <i className="[text-decoration:underline] font-bold font-poppins">
+                      <i className="[text-decoration:underline] font-bold font-quicksand">
                         right now!
                       </i>
                     </p>
@@ -36,7 +36,7 @@ const Divcontainer1: NextPage = () => {
       </div>
       <FadeInOnScroll>
         <DivheroButtonsHolder
-          joinTheBetaList="Join Beta"
+          joinTheBetaList="Get Early Access"
           propWidth="44.27rem"
         />
       </FadeInOnScroll>
