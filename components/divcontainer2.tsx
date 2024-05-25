@@ -4,7 +4,7 @@ import DivheroButtonsHolder from "./divhero-buttons-holder";
 
 const Divcontainer2: NextPage = () => {
   return (
-    <div className="mx-auto pb-0 max-w-6xl border-box w-full flex flex-col pt-[6rem] sm:pt-[6rem] items-center justify-start py-[1.06rem] sm:py-[2.06rem] gap-[2rem] z-[1] mt-[-0.75rem] text-center text-[2.75rem] sm:text-[3.5rem] lg:text-[4.53rem] text-high-contrast-dark font-poppins">
+    <div className="mx-auto pb-0 max-w-6xl border-box w-full flex flex-col pt-[16rem] sm:pt-[6rem] items-center justify-start py-[1.06rem] sm:py-[2.06rem] gap-[2rem] z-[1] mt-[-0.75rem] text-center text-[2.75rem] sm:text-[3.5rem] lg:text-[4.53rem] text-high-contrast-dark font-poppins">
       <div className="flex flex-col items-start justify-start">
         <div className=" flex flex-row items-center justify-center ">
           <div className="flex-1 flex flex-col items-center justify-start gap-0 sm:px-4 overflow-hidden">
