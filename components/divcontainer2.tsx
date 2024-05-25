@@ -38,8 +38,7 @@ const Divcontainer2: NextPage = () => {
                   <div className="flex flex-col w-full items-center justify-start py-0 px-7">
                     <div className="font-poppins relative leading-[1.87rem] md:leading-[1.87rem] flex !bg-clip-text [background:linear-gradient(150deg,_#FF7900_30%,#2A8F44)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] items-start py-0 md:py-4">
                     <p className="mt-0 max-w-[25rem] pt-[1rem] sm:pt-[0rem] text-center tracking-wider">
-                      The Platform that connects
-                      Content Creators and Businesses.
+                    Connecting Influencers and Businesses Effortlessly.
                     </p>
 
                     

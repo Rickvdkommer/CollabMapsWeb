@@ -19,14 +19,14 @@ const DivcenterText: NextPage = () => {
             <FadeInOnScroll>
               <div className="relative flex-col leading-7 flex items-center text-center">
                 <p className="m-0">
-                  <span className="font-poppins sm:text-5xl text-2xl text-black">{`Getting collaborations should be `}</span>
+                  <span className="font-poppins sm:text-5xl text-2xl text-black">{`Monetize Your Content. Collaborations Made `}</span>
                   <b className="font-poppins sm:text-5xl text-2xl text-black">easy</b>
                   <span className="font-poppins">{``}</span>
                   <i className="underline font-poppins"></i>
                   <span>{`. `}</span>
                 </p>
                 <p className="m-0 font-poppins text-black sm:text-5xl text-2xl text-y">
-                  We're simplifying the way to find possible collaboration partners.
+                Simplify finding collaboration partners with our intuitive, location-based platform
                 </p>
               </div>
             </FadeInOnScroll>

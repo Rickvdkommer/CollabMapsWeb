@@ -20,9 +20,8 @@ const DivcontainerWithImage: NextPage = () => {
                       For Businesses
                     </div>
                     <div className="text-center md:px-0 px-6 sm:text-left tracking-wide text-[1rem] sm:text-[1.25rem] lg:text-[1.5rem] font-medium text-high-contrast-dark">
-                      Collaborate effortlessly. <br />
-                      With our location-based collaboration platform, CollabMaps allows you to see, analyze and message all content creators within your region. It has never been easier to find content creators in your area.
-                    </div>
+                    Effortlessly find and connect with local content creators. <br />
+                    CollabMaps lets you discover, analyze, and message influencers in your area.                    </div>
                   </div>
                 </div>
               </FadeInOnScroll>

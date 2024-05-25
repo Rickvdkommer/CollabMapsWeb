@@ -22,9 +22,8 @@ const DivcontainerWithImage: NextPage = () => {
                       For Content Creators
                     </div>
                     <div className="text-center md:px-0 px-6 sm:text-left text-[1rem] tracking-wide sm:text-[1.25rem] lg:text-[1.5rem] font-medium text-high-contrast-dark">
-                      Finding businesses to collorate with sucks. <br></br>
-                      Our location-based platform allows you to find businesses eager to partner with content creators like you in your region or area, removing the hassle of reaching out to uninterested companies.
-
+                    Struggling to find businesses to collaborate with? <br></br>
+                    Our location-based platform connects you with eager local businesses, making partnerships hassle-free.
                       <br></br>
                     </div>
                   </div>

@@ -20,7 +20,7 @@ const Divcontainer1: NextPage = () => {
               <div className="flex flex-col items-center justify-start py-[0rem] pr-[1.49rem] pl-[1.5rem]">
                 <div className="relative leading-[1.87rem] flex items-center">
                   <span>
-                    <p className="m-0">{`Finding Businesses or Content Creators to collaborate with should be EASY!`}</p>
+                    <p className="m-0">{`Connecting with businesses or influencers should be easy.`}</p>
                     <p className="m-0 pb-[4rem]">
                       <span>{`Join our Early Access Program `}</span>
                       <i className="[text-decoration:underline] font-bold font-quicksand">
