@@ -24,23 +24,15 @@ function MyApp({ Component, pageProps }: AppProps) {
         
         <title>CollabMaps</title>
         <link rel="icon" href="/faviconsquare.png" type="image/png" />
-        <meta name="description" content="The platform that bridges Content Creators with Businesses" />
-
 
         <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
 
         {/* Open Graph Meta Tags */}
         <meta property="og:title" content="CollabMaps" />
-        <meta property="og:description" content="Collaborative Mapping Tool" />
+        <meta property="og:description" content="The platform that bridges Content Creators with Businesses" />
         <meta property="og:image" content="/opengraphimage.png" />
         <meta property="og:url" content="https://www.yourleads.com" />
         <meta property="og:type" content="website" />
-
-        {/* Twitter Card Meta Tags (optional) */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="CollabMaps" />
-        <meta name="twitter:description" content="Collaborative Mapping Tool" />
-        <meta name="twitter:image" content="/twitterimage.png" />
       </Head>
       <DesignV />
       <Component {...pageProps} />
