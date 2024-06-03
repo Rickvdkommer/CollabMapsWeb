@@ -27,12 +27,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 
         <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
 
-        {/* Open Graph Meta Tags */}
-        <meta property="og:title" content="CollabMaps" />
-        <meta property="og:description" content="The platform that bridges Content Creators with Businesses" />
-        <meta property="og:image" content="/opengraphimage.png" />
-        <meta property="og:url" content="https://www.yourleads.com" />
-        <meta property="og:type" content="website" />
+
       </Head>
       <DesignV />
       <Component {...pageProps} />
