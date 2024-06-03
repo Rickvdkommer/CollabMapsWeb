@@ -24,6 +24,8 @@ function MyApp({ Component, pageProps }: AppProps) {
         
         <title>CollabMaps</title>
         <link rel="icon" href="/faviconsquare.png" type="image/png" />
+        <meta name="description" content="The platform that bridges Content Creators with Businesses" />
+
 
         <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
 
