@@ -17,8 +17,8 @@ function MyApp({ Component, pageProps }: AppProps) {
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width"
         />
-        <meta name="description" content="The platform that connects Content Creators with Businesses" />
-        <link rel="canonical" href="https://collabmaps.com" />
+        <meta name="description" content="CollabMaps is the platform that allows Content Creators to find Businesses using our location-based find feature." />
+        <link rel="canonical" href="https://www.collabmaps.com" />
 
 
         <meta property="og:title" content="CollabMaps" />
