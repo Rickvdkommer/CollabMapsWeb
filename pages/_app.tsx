@@ -5,6 +5,7 @@ import DesignV from "./design-v";
 import "./global.css";
 import Script from 'next/script';
 
+
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <Fragment>
@@ -12,16 +13,17 @@ function MyApp({ Component, pageProps }: AppProps) {
         <title>CollabMaps</title>
         <link rel="icon" href="/faviconsquare.png" type="image/png" />
 
-        <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
+        <meta
+          name="viewport"
+          content="minimum-scale=1, initial-scale=1, width=device-width"
+        />
 
-        {/* Open Graph Meta Tags */}
         <meta property="og:title" content="CollabMaps" />
-        <meta property="og:description" content="The platform that bridges Content Creators with Businesses" />
+        <meta property="og:description" content="Connecting Content Creators with Businesses" />
         <meta property="og:image" content="/opengraphimage.png" />
-        <meta property="og:url" content="https://www.yourleads.com" />
+        <meta property="og:url" content="https://collabmaps.com" />
         <meta property="og:type" content="website" />
       </Head>
-      {/* Google tag (gtag.js) */}
       <Script
         src="https://www.googletagmanager.com/gtag/js?id=G-FSE2SL24SV"
         strategy="afterInteractive"
@@ -39,7 +41,6 @@ function MyApp({ Component, pageProps }: AppProps) {
         }}
       />
       <DesignV />
-      <Component {...pageProps} />
     </Fragment>
   );
 }
