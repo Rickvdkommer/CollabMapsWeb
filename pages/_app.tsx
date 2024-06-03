@@ -10,13 +10,16 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <Fragment>
       <Head>
-        <title>CollabMaps</title>
+        <title>CollabMaps - Connecting Content Creators with Businesses</title>
         <link rel="icon" href="/faviconsquare.png" type="image/png" />
 
         <meta
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width"
         />
+        <meta name="description" content="The platform that connects Content Creators with Businesses" />
+        <link rel="canonical" href="https://collabmaps.com" />
+
 
         <meta property="og:title" content="CollabMaps" />
         <meta property="og:description" content="Connecting Content Creators with Businesses" />

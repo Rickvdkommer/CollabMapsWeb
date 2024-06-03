@@ -5,6 +5,22 @@ const nextConfig = {
     serverActions: true,
     appDir: true,
   },
+  async redirects() {
+    return [
+      {
+        source: '/(.*)',
+        has: [{ type: 'host', value: 'collabmaps.com' }],
+        destination: 'https://www.collabmaps.com/:path*',
+        permanent: true,
+      },
+      {
+        source: '/old-path',
+        destination: '/new-path',
+        permanent: true,
+      },
+      // Add more redirects as needed
+    ];
+  },
 };
 
 module.exports = nextConfig;

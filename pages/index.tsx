@@ -4,7 +4,7 @@ import React from 'react';
 const HomePage = () => {
   return (
     <div>
-      <h1>Welcome to My Next.js App</h1>
+      <h1>Collabmaps bridges the gap between Businesses and Content Creators</h1>
       <p>This is the homepage.</p>
     </div>
   );
