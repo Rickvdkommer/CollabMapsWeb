@@ -62,7 +62,7 @@ const Divcontainer2: NextPage = () => {
       <div className="w-full max-w-4xl flex flex-col items-center justify-start pt-[rem] sm:pb-[4rem] pb-[8rem] sm:pr-[2.06rem] sm:pl-[2rem]  gap-[3.63rem] text-center text-[0.17rem] text-high-contrast-dark font-poppins">
         <FadeInOnScroll>
           <DivheroButtonsHolder
-            joinTheBetaList="Get Access"
+            joinTheBetaList="Get FREE Early Access"
             propWidth="44.27rem"
           />
         </FadeInOnScroll>
