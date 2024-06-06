@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/api/sheets.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/free-access.tsx", "pages/api/sheets.js"],
   "exclude": ["node_modules"]
 }
