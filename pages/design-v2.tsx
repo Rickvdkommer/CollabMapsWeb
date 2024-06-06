@@ -13,7 +13,7 @@ import Divcontainer4invert from "../components/divcontainer4invert";
 import DivsmallFeaturesGrid from "../components/divsmall-features-grid";
 import ImageContainer from "../components/imagecontainer";
 
-const DesignV: NextPage = () => {
+const DesignV2: NextPage = () => {
   return (
     <div className="relative bg-orange-100 flex flex-col items-center justify-start pt-0 px-0 pb-20 gap-16 overflow-hidden">
       
@@ -48,4 +48,4 @@ const DesignV: NextPage = () => {
   );
 };
 
-export default DesignV;
+export default DesignV2;
