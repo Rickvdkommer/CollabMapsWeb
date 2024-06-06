@@ -6,7 +6,7 @@ import DivcenterText2 from "../components/divcenter-text2";
 import DivcenterText3 from "../components/divcenter-text3";
 import Divcontainer from "../components/divcontainer";
 import Divcontainer1 from "../components/divcontainer1";
-import Divcontainer2 from "../components/divcontainer2";
+import Divcontainer2 from "../components/divcontainer2-free-access";
 import Divcontainer3 from "../components/divcontainer3";
 import Divcontainer4 from "../components/divcontainer4";
 import Divcontainer4invert from "../components/divcontainer4invert";
