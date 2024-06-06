@@ -9,7 +9,9 @@ import { useRouter } from 'next/router';
 
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
+  console.log('Current path:', router.pathname);
   const isFreeAccess = router.pathname.startsWith('/free-access');
+  console.log('Is free access:', isFreeAccess);
 
   const DesignComponent = isFreeAccess ? DesignV2 : DesignV;
 
