@@ -21,6 +21,14 @@ const nextConfig = {
       // Add more redirects as needed
     ];
   },
+  async rewrites() {
+    return [
+      {
+        source: '/free-access/:path*',
+        destination: '/free-access', // Rewrite to free-access
+      },
+    ];
+  },
 };
 
 module.exports = nextConfig;

@@ -2,10 +2,17 @@ import type { AppProps } from "next/app";
 import Head from "next/head";
 import { Fragment } from "react";
 import DesignV from "./design-v";
+import DesignV2 from "./design-v2";
 import "./global.css";
 import Script from 'next/script';
+import { useRouter } from 'next/router';
 
 function MyApp({ Component, pageProps }: AppProps) {
+  const router = useRouter();
+  const isFreeAccess = router.pathname.startsWith('/free-access');
+
+  const DesignComponent = isFreeAccess ? DesignV2 : DesignV;
+
   return (
     <Fragment>
       <Head>
@@ -65,7 +72,7 @@ function MyApp({ Component, pageProps }: AppProps) {
              src="https://www.facebook.com/tr?id=1448694002434561&ev=PageView&noscript=1"
         />
       </noscript>
-      <DesignV />
+      <DesignComponent />
     </Fragment>
   );
 }
