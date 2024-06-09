@@ -13,13 +13,13 @@ const Divcontainer: NextPage = () => {
             <img
               className="h-6 w-6"
               src="/6548a60ae9964e23ec87812a-xcomsvg.svg"
-              alt=""
+              alt="Linkedin page"
             />
           </a>
-          <a href="https://www.linkedin.com/company/collabmaps/">
+          <a href="https://www.instagram.com/collabmaps">
             <img
               className="h-6 w-6"
-              src="/6548a60ae9964e23ec87812a-xcomsvg.svg"
+              src="/instagram-seeklogo.svg"
               alt=""
             />
           </a>
